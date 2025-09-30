@@ -7,7 +7,6 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
 
-  // Click outside uchun effect
   useEffect(() => {
     function handleClickOutside(event) {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -87,7 +86,6 @@ export default function Header() {
           </a>
         </div>
 
-        {/* Markazdagi rasm */}
         <div className="bg-[#14191F] max-md:ml-8 z-999 sm:rounded-b-full border border-[#26292C] duration-300 max-sm:rounded-full sm:pt-3 relative  shadow-[0_5px_10px_5px_rgba(37,99,235,0.1)]">
           <img
             className="rounded-full p-3"
@@ -98,7 +96,6 @@ export default function Header() {
           />
         </div>
 
-        {/* O‘ng taraf */}
         <div className="text-white relative z-10 pt-5">
           <a href="https://t.me/hasanboy_vlog" target="_blank">
             <button

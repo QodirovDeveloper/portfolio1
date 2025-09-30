@@ -26,7 +26,6 @@ export default function Page() {
           className="absolute inset-0 pointer-events-none 
           bg-[linear-gradient(to_bottom,rgba(0,0,0,0.6),transparent_20%,transparent_80%,rgba(0,0,0,0.6))] "
         ></div>
-        {/* markaziy text */}
         <div className="text-white flex flex-col items-center select-none justify-center pt-52 z-50 uppercase relative">
           <p className="lg:text-6xl md:text-4xl text-[32px] py-2 font-medium text-center">
             HI, I'M Hasanboy <br /> Kadirov
@@ -55,7 +54,6 @@ export default function Page() {
           </div>
         </div>
 
-        {/* pastki infinite scroll text */}
         <div className="absolute top-90 w-full overflow-hidden">
           <motion.div
             initial={{ x: "0%" }}
@@ -97,9 +95,7 @@ export default function Page() {
                 <div className="flex items-center justify-center gap-8 text-2xl">
                   <p>QodirovDeveloper</p>
                   <span className="relative flex h-2 w-2 mt-1">
-                    {/* tashqi puls to‘lqin */}
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-700 opacity-75"></span>
-                    {/* ichki doimiy nuqta */}
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-700"></span>
                   </span>
                 </div>
