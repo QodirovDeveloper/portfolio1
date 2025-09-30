@@ -85,16 +85,17 @@ export default function Header() {
             Projects
           </a>
         </div>
-
-        <div className="bg-[#14191F] max-md:ml-8 z-999 sm:rounded-b-full border border-[#26292C] duration-300 max-sm:rounded-full sm:pt-3 relative  shadow-[0_5px_10px_5px_rgba(37,99,235,0.1)]">
-          <img
-            className="rounded-full p-3"
-            width={120}
-            height={120}
-            src="./me.jpg"
-            alt="me"
-          />
-        </div>
+        <a href="#home">
+          <div className="bg-[#14191F] max-md:ml-8 z-999 sm:rounded-b-full border border-[#26292C] duration-300 max-sm:rounded-full sm:pt-3 relative  shadow-[0_5px_10px_5px_rgba(37,99,235,0.1)]">
+            <img
+              className="rounded-full p-3"
+              width={120}
+              height={120}
+              src="./me.jpg"
+              alt="me"
+            />
+          </div>
+        </a>
 
         <div className="text-white relative z-10 pt-5">
           <a href="https://t.me/hasanboy_vlog" target="_blank">

@@ -16,7 +16,7 @@ export default function Page() {
   ];
   return (
     <>
-      <div className="relative w-full min-h-screen">
+      <div id="home" className="relative w-full min-h-screen">
         <img
           src="./valley.jpg"
           alt="valley"
