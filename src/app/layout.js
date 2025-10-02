@@ -1,11 +1,10 @@
 import "./globals.css";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Qodirov Hasanboyning portfolio sahifasi",
+  title: "Kadirov Hasanboy's Portfolio Page",
   description:
-    "Hasanboy Qodirov haqida barcha ma'lumotlarni bu yerdan topishingiz mumkin.",
+    "You can find all the information about Hasanboy Kadirov here.",
 };
 
 export default function RootLayout({ children }) {

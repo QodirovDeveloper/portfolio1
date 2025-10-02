@@ -112,7 +112,7 @@ export default function Page() {
         >
           <div className="md:py-30 py-20">
             <div className="space-y-5 pb-4 flex flex-col items-center justify-center">
-              <p className="text-5xl text-center tetx-[#e4e4e4]">About Me</p>
+              <p className="text-5xl text-center text-[#e4e4e4]">About Me</p>
               <div className="h-1.5 w-12 rounded-full bg-blue-700"></div>
               <p className="max-w-[480px] text-lg text-center text-[#cacaca]">
                 Here you can find information about who I am, what I do, and my
@@ -121,7 +121,7 @@ export default function Page() {
             </div>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 py-4 duration-200">
               <div>
-                <p className="text-3xl pb-6 tetx-[#e4e4e4]">Get to know me!</p>
+                <p className="text-3xl pb-6 text-[#e4e4e4]">Get to know me!</p>
                 <p className="text-lg text-[#cacaca]">
                   Hello! I’m a frontend developer focused on modern web
                   technologies. I studied at Najot Ta’lim from December 2024 to
@@ -131,7 +131,7 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <p className="text-3xl pb-6 tetx-[#e4e4e4]">My Skills</p>
+                <p className="text-3xl pb-6 text-[#e4e4e4]">My Skills</p>
                 <div className="flex flex-wrap gap-4">
                   {skills.map((skill, i) => (
                     <span
@@ -155,7 +155,7 @@ export default function Page() {
         >
           <div className="md:py-30 py-20">
             <div className="space-y-5 sm:pb-12 pb-6 flex flex-col items-center justify-center">
-              <p className="text-5xl text-center tetx-[#e4e4e4]">Projects</p>
+              <p className="text-5xl text-center text-[#e4e4e4]">Projects</p>
               <div className="h-1.5 w-12 rounded-full bg-blue-700"></div>
               <p className="text-lg text-center text-[#cacaca]">
                 You can see my projects here!
@@ -259,10 +259,10 @@ export default function Page() {
         </div>
       </div>
 
-      <div id="contact" className="pr-2 pl-2">
+      <div id="contact" className="pr-2 pl-2 bg-[#12161C]">
         <div className="md:py-30 py-20">
           <div className="space-y-5  flex flex-col items-center justify-center">
-            <p className="text-5xl text-center tetx-[#e4e4e4]"> Contact</p>
+            <p className="text-5xl text-center text-[#e4e4e4]"> Contact</p>
 
             <div className="h-1.5 w-12 rounded-full bg-blue-700"></div>
             <p className="max-w-[650px] text-lg text-center text-[#cacaca]">
@@ -271,7 +271,7 @@ export default function Page() {
             </p>
           </div>
           <div className="pt-10 flex items-center justify-center text-white px-4">
-            <form className="w-full max-w-md bg-gray-900/80 backdrop-blur-lg rounded-xl shadow-lg p-6 space-y-5">
+            <form className="w-full max-w-md bg-[#242731] backdrop-blur-lg rounded-xl shadow-lg p-6 space-y-5">
               <div>
                 <label className="block mb-2 text-sm font-medium">
                   Enter your name <span className="text-red-500">*</span>
@@ -279,7 +279,7 @@ export default function Page() {
                 <input
                   type="text"
                   placeholder="John Doe"
-                  className="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:ring-2 focus:ring-pink-500 focus:outline-none"
+                  className="w-full px-4 py-2 rounded-md border border-gray-700 focus:outline-none"
                 />
               </div>
 
@@ -291,7 +291,7 @@ export default function Page() {
                 <input
                   type="text"
                   placeholder="+7(996)996-90-80 / @QodirovDev"
-                  className="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:ring-2 focus:ring-pink-500 focus:outline-none"
+                  className="w-full px-4 py-2 rounded-md border border-gray-700 focus:outline-none"
                 />
               </div>
 
@@ -302,7 +302,7 @@ export default function Page() {
                 <input
                   type="email"
                   placeholder="for@example.com"
-                  className="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:ring-2 focus:ring-pink-500 focus:outline-none"
+                  className="w-full px-4 py-2 rounded-md border border-gray-700 focus:outline-none"
                 />
               </div>
 
@@ -313,13 +313,13 @@ export default function Page() {
                 <textarea
                   rows="4"
                   placeholder="Hello"
-                  className="w-full px-4 py-2 rounded-md bg-gray-800 border border-gray-700 focus:ring-2 focus:ring-pink-500 focus:outline-none"
+                  className="w-full px-4 py-2 rounded-md border border-gray-700 focus:outline-none"
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full py-2 rounded-md bg-gray-700 hover:bg-gray-800 transition font-medium"
+                className="w-full py-2 rounded-md bg-blue-700 hover:bg-blue-600 transition font-medium"
               >
                 Send
               </button>
